@@ -10,3 +10,10 @@ def index():
     """
     posts_final = []
     return render_template("blog/index.html", posts=posts_final)
+
+@app.route("/dashboard")
+def dashboard():
+    """
+    Render dashboard.
+    """
+    return render_template("blog/dashboard.html")
