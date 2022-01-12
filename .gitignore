@@ -2,3 +2,4 @@
 okta_data.txt
 blog/__pycache__
 database.sqlite
+client_secrets.json
